@@ -1,0 +1,42 @@
+.sudokupreview { 
+	width: 30%;
+	background-color: rgba(125, 177, 255, 0.1);
+	display: flex;
+	float:left;
+	border-radius: 25px;
+	text-align:center;
+	margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.sudokupreview:hover { 
+	background-color: rgba(125, 177, 255, 0.5);
+}
+
+.sudokupreviewcontent { 
+	margin-left: 5px; margin-top: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+    cursor:pointer;  
+}
+
+img {
+	width: 50%;
+	height: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
