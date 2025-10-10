@@ -1,5 +1,5 @@
 .sudokupreview { 
-	width: 30%;
+	width: 23%;
 	background-color: rgba(125, 177, 255, 0.1);
 	display: flex;
 	float:left;
@@ -31,8 +31,9 @@ a:hover {
 }
 
 img {
-	width: 50%;
+	width: 80%;
 	height: auto;
+	margin-bottom: 5%;
 }
 
 h1 {
