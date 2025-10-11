@@ -9,6 +9,8 @@
     margin-right: 1%;
     margin-bottom: 1%;
     color: black;
+    text-size: 1vw;
+    overflow-wrap: break-word;
 }
 
 .sudokupreview:hover { 
