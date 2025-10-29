@@ -1,0 +1,45 @@
+.photo-galery-with-zoom {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: equally-spaced;
+}
+
+.photo-galery-with-zoom label {
+  position: relative;
+}
+
+.photo-galery-with-zoom img {
+  height: 19vh;
+  width: 19vh;
+  object-fit: contain;
+}
+
+.photo-galery-with-zoom input:checked+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  object-fit: contain;
+}
+
+.photo-galery-with-zoom input {
+  width: 19vh;
+  height: 19vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.photo-galery-with-zoom input:checked {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
